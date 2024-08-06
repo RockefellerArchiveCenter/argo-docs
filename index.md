@@ -1,6 +1,6 @@
 ---
 layout: docs
-title:  "Getting Started with Our Collections API"
+title:  "Collections Data API Guide"
 ---
 
 ## How do I use this guide?

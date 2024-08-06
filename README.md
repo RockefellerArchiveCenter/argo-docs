@@ -1,4 +1,4 @@
-# Public API documentation
+# Collections Data API Guide
 A starting point for users to learn about and use the the Rockefeller Archive Center API to access public collections data.
 
 ## Accessing the documentation
