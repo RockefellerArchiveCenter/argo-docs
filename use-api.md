@@ -12,7 +12,7 @@ Get started with your favorite API tool or script. We do not require an API key.
 - We provide an [API client](https://pypi.org/project/rac-api-client/) to simplify requests if you are writing Python scripts.
 
 ## Quick start 
-The best way to learn what is available via the API is to start making API requests and exploring what comes back, whether in the [browsable API](https://api.rockarch.org) with URLs or using another interface. Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](/argo/endpoints-parameters) section of this document.
+The best way to learn what is available via the API is to start making API requests and exploring what comes back, whether in the [browsable API](https://api.rockarch.org) with URLs or using another interface. Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](/argo-docs/endpoints-parameters) section of this document.
 
 This section includes some basic examples to show you how to construct queries and start exploring.
 
@@ -51,7 +51,7 @@ Use the `/search` endpoint to return the number of search matches for the query 
 https://api.rockarch.org/search?&query=agriculture&category=collection&genre=photographs&start_date__gte=1940&end_date__lte=1950
 ```
 
-**Note**: As documented in the [parameters section](/argo/endpoints-parameters#parameters), appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates.
+**Note**: As documented in the [parameters section](/argo-docs/endpoints-parameters#parameters), appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates.
 
 ### Example 5: Minimap
 Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
