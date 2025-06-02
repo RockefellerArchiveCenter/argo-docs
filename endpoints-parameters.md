@@ -5,8 +5,6 @@ title:  "Endpoints and Parameters"
 
 Using the available endpoints and their parameters, you can construct queries to get data back from the API. 
 
-See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.rockarch.org/schema) to see how our API is structured and understand the data.
-
 ## Endpoints
 
 **Agents**: People, organizations or families.  
@@ -30,7 +28,6 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 |/terms/{id}|Returns data about an individual term.|
 |/search|Performs search queries across agents, collections, objects and terms.|
 |/search/{id}|Performs search queries across a specific agent, collection, object or term.
-|/schema/|Returns the OpenAPI schema for the RAC API.|
 
 ## Parameters
 Use our [browsable API](https://api.rockarch.org) to see which parameters are available for which endpoints. For example, [https://api.rockarch.org/collections](https://api.rockarch.org/collections) lists the filter and sort fields, or parameters, that are available for that endpoint at the top of the webpage.
